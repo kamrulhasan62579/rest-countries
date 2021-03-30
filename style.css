@@ -1,0 +1,52 @@
+body{
+    width: 100%;
+}
+.photo{
+    height: 110px;
+    width: 250px;
+    margin-top: 10px;
+}
+.photo1{
+   height: 120px; 
+   width: 310px;
+}
+.country-name{
+    font-size: 25px;
+    color: brown;
+}
+.singleDetail{
+    margin: 20px;
+    text-align: center;
+    
+}
+.listItem{
+    list-style: none;
+}
+.country{
+    border: 1px solid goldenrod;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgb(211, 211, 211);
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+@media (max-width: 1050px) {
+    #countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}}
+
+@media (max-width: 750px) { 
+    #countries{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}}
+@media (max-width: 470px) { 
+    #countries{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);   
+}}   
