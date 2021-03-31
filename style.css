@@ -32,14 +32,14 @@ body{
     
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1431px) {
     #countries{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     
 }}
 
-@media (max-width: 750px) { 
+@media (max-width: 870px) { 
     #countries{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
