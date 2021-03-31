@@ -33,21 +33,17 @@ body{
     margin: 10px;
     
 }
-
-@media (max-width: 1431px) {
-    #countries{
+#countries{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    
-}}
-
-@media (max-width: 870px) { 
+    grid-template-columns: repeat(3, 1fr);   
+}
+@media (max-width: 992px) { 
     #countries{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     
 }}
-@media (max-width: 470px) { 
+@media (max-width: 668px) { 
     #countries{
     display: grid;
     grid-template-columns: repeat(1, 1fr);   
