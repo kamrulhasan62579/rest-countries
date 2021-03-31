@@ -32,7 +32,10 @@ body{
     margin: 10px;
     
 }
-
+#countries{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);   
+}
 @media (max-width: 992px) { 
     #countries{
     display: grid;
