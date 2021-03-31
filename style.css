@@ -18,8 +18,7 @@ body{
 }
 .singleDetail{
     margin: 20px;
-    text-align: center;
-    
+    text-align: center;    
 }
 .listItem{
     list-style: none;
@@ -35,13 +34,12 @@ body{
 }
 #countries{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);   
+    grid-template-columns: repeat(4, 1fr);   
 }
 @media (max-width: 992px) { 
     #countries{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    
+    grid-template-columns: repeat(2, 1fr);   
 }}
 @media (max-width: 668px) { 
     #countries{
